@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -80 883 929" width="883" height="929">
+  <defs>
+    
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE98E" />
+      <stop offset="50%" stop-color="#E8C953" />
+      <stop offset="100%" stop-color="#B99B32" />
+    </linearGradient>
+
+    <linearGradient id="headGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#68C8E0" />
+      <stop offset="60%" stop-color="#3C99B8" />
+      <stop offset="100%" stop-color="#286E8C" />
+    </linearGradient>
+
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58B9CE" />
+      <stop offset="45%" stop-color="#398CA8" />
+      <stop offset="75%" stop-color="#5E9C5C" />
+      <stop offset="100%" stop-color="#87B95D" />
+    </linearGradient>
+
+    <linearGradient id="backLimbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#317096" />
+      <stop offset="100%" stop-color="#1E466E" />
+    </linearGradient>
+
+    <linearGradient id="frontArmGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F0CE74" />
+      <stop offset="100%" stop-color="#C49B47" />
+    </linearGradient>
+
+    <linearGradient id="roadGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#214672" />
+      <stop offset="55%" stop-color="#386B9C" />
+      <stop offset="100%" stop-color="#538AB8" />
+    </linearGradient>
+
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A3C663" />
+      <stop offset="55%" stop-color="#6A9A48" />
+      <stop offset="100%" stop-color="#3E6E34" />
+    </linearGradient>
+
+    <linearGradient id="turbineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#76C4D4" />
+      <stop offset="60%" stop-color="#488EA8" />
+      <stop offset="100%" stop-color="#2E6480" />
+    </linearGradient>
+
+    <linearGradient id="topTextGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4B80A6" />
+      <stop offset="100%" stop-color="#2C5275" />
+    </linearGradient>
+
+    <linearGradient id="bottomTextGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4E9456" />
+      <stop offset="100%" stop-color="#2E663A" />
+    </linearGradient>
+
+    
+    <path id="topArcPath" d="M 72,415 A 375,375 0 1,1 811,415" fill="none" />
+  </defs>
+
+  
+  
+  <g id="top-title">
+    <text font-family="Impact, &#39;Arial Narrow&#39;, &#39;Bebas Neue&#39;, sans-serif" font-size="68" font-weight="bold" letter-spacing="3.5" fill="url(#topTextGrad)" stroke="#A8C4D8" stroke-width="1.2">
+      <textPath href="#topArcPath" startOffset="50%" text-anchor="middle">ENERGY CONSERVATION WEEK 2026</textPath>
+    </text>
+  </g>
+
+  
+  <g id="sun">
+    <circle cx="328" cy="342" r="57" fill="url(#sunGrad)" stroke="#FCE98E" stroke-width="1.5" />
+    
+    <polygon points="328,262 316,281 340,281" fill="#E3C766" />
+    <polygon points="368,273 350,285 366,297" fill="#E3C766" />
+    <polygon points="397,302 377,306 385,323" fill="#E3C766" />
+    <polygon points="408,342 389,332 389,352" fill="#E3C766" />
+    <polygon points="397,382 385,361 377,378" fill="#E3C766" />
+    <polygon points="368,411 366,387 350,399" fill="#E3C766" />
+    <polygon points="328,422 340,403 316,403" fill="#E3C766" />
+    <polygon points="288,411 306,399 290,387" fill="#E3C766" />
+    <polygon points="259,382 279,378 271,361" fill="#E3C766" />
+    <polygon points="248,342 267,352 267,332" fill="#E3C766" />
+    <polygon points="259,302 271,323 279,306" fill="#E3C766" />
+    <polygon points="288,273 290,297 306,285" fill="#E3C766" />
+  </g>
+
+  
+  <g id="sparkles" fill="#9BB56B">
+    <path d="M 534,232 Q 534,254 554,254 Q 534,254 534,276 Q 534,254 514,254 Q 534,254 534,232 Z" />
+    <path d="M 518,323 Q 518,337 531,337 Q 518,337 518,351 Q 518,337 505,337 Q 518,337 518,323 Z" />
+    <path d="M 562,415 Q 562,426 572,426 Q 562,426 562,437 Q 562,426 552,426 Q 562,426 562,415 Z" />
+  </g>
+
+  
+  <g id="wind-turbine">
+    
+    <polygon points="609,374 624,374 633,618 599,618" fill="url(#turbineGrad)" stroke="#88C8D8" stroke-width="1" />
+
+    <g id="turbine-rotor">
+      <path d="M 616,336 C 610,275 612,205 617,196 C 623,205 626,275 620,336 Z" fill="url(#turbineGrad)" stroke="#88C8D8" stroke-width="1" />
+      <path d="M 601,353 C 546,385 508,405 504,401 C 507,393 546,366 597,344 Z" fill="url(#turbineGrad)" stroke="#88C8D8" stroke-width="1" />
+      <path d="M 633,353 C 688,385 726,405 730,401 C 727,393 688,366 637,344 Z" fill="url(#turbineGrad)" stroke="#88C8D8" stroke-width="1" />
+      <circle cx="617" cy="348" r="16" fill="#63B8C8" stroke="#A6E0EA" stroke-width="1.5" />
+    </g>
+    
+    <path d="M 647,256 C 680,262 699,294 702,330" fill="none" stroke="#85B36E" stroke-width="8" stroke-linecap="round" />
+    <path d="M 654,292 C 674,298 682,315 683,332" fill="none" stroke="#85B36E" stroke-width="7" stroke-linecap="round" />
+  </g>
+
+  
+  <g id="lightning-icon">
+    <path d="M 213,477 A 68,68 0 0,0 183,604" fill="none" stroke="url(#turbineGrad)" stroke-width="14" stroke-linecap="round" />
+    <path d="M 235,485 A 68,68 0 0,1 206,612" fill="none" stroke="url(#turbineGrad)" stroke-width="14" stroke-linecap="round" />
+    <polygon points="227,472 175,551 206,551 183,618 242,535 210,535" fill="#78A856" stroke="#A8D47C" stroke-width="1.2" />
+  </g>
+
+  
+  <g id="power-icon">
+    <path d="M 672,447 A 50,50 0 1,0 721,447" fill="none" stroke="#75A358" stroke-width="14" stroke-linecap="round" />
+    <line x1="696" y1="422" x2="696" y2="474" stroke="#99C46C" stroke-width="16" stroke-linecap="round" />
+  </g>
+
+  
+  <g id="foliage">
+    
+    <path d="M 484,544 C 535,535 588,568 599,605 C 556,614 505,585 484,544 Z" fill="#6D9B4C" />
+    <path d="M 712,566 C 672,564 635,582 628,608 C 668,605 702,588 712,566 Z" fill="#7DA856" />
+    
+    <path d="M 339,554 C 344,615 314,666 264,686 C 254,625 282,582 339,554 Z" fill="url(#leafGrad)" />
+    <path d="M 322,578 C 304,615 284,650 264,686" fill="none" stroke="#182C18" stroke-width="3" stroke-linecap="round" />
+    
+    <path d="M 113,562 C 110,664 156,742 256,766 C 266,668 214,618 113,562 Z" fill="url(#leafGrad)" stroke="#A7CC68" stroke-width="1" />
+    
+    <path d="M 248,760 C 232,714 198,676 154,644" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" />
+    <path d="M 212,695 L 201,642" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" />
+    <path d="M 192,676 L 146,676" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" />
+    
+    <path d="M 756,626 C 745,705 685,758 612,772 C 646,718 702,675 756,626 Z" fill="url(#leafGrad)" />
+  </g>
+
+  
+  <g id="winding-road">
+    <path d="M 218,772 C 332,684 485,654 606,614 C 696,584 745,552 764,504 C 776,568 742,642 644,704 C 552,756 445,772 218,772 Z" fill="url(#roadGrad)" stroke="#72A8D4" stroke-width="1.5" />
+    
+    <path d="M 382,732 Q 412,718 442,708" fill="none" stroke="#D8C478" stroke-width="11" stroke-linecap="round" />
+    <path d="M 505,686 Q 535,672 562,658" fill="none" stroke="#D8C478" stroke-width="10" stroke-linecap="round" />
+    <path d="M 608,638 Q 632,624 652,610" fill="none" stroke="#C8D6DE" stroke-width="9" stroke-linecap="round" />
+    <path d="M 682,588 Q 698,574 712,560" fill="none" stroke="#C8D6DE" stroke-width="8" stroke-linecap="round" />
+  </g>
+
+  
+  <g id="walking-figure">
+    
+    <circle cx="445" cy="285" r="44" fill="url(#headGrad)" stroke="#86D8E8" stroke-width="1.2" />
+    
+    <path d="M 374,568 L 346,648 L 245,748 C 234,758 242,772 258,772 L 285,772 L 392,668 L 418,614 Z" fill="url(#backLimbGrad)" stroke="#528EB8" stroke-width="1" />
+    
+    <path d="M 476,408 C 492,456 524,484 574,498 C 588,502 586,522 568,522 C 505,512 475,484 466,456 Z" fill="url(#frontArmGrad)" stroke="#F6DC8C" stroke-width="1" />
+    
+    <path d="M 426,342 C 455,342 472,364 466,396 L 452,516 C 450,536 462,554 482,576 L 538,648 L 566,752 C 570,768 544,775 538,760 L 502,668 L 408,582 C 388,562 380,536 382,508 L 386,422 L 336,462 L 322,534 C 318,552 290,548 292,528 L 308,438 C 312,418 326,404 344,392 L 396,354 C 406,346 416,342 426,342 Z" fill="url(#bodyGrad)" stroke="#7ED0DC" stroke-width="1.2" />
+  </g>
+
+  
+  <g id="bottom-tagline">
+    <text x="441" y="828" font-family="Impact, &#39;Arial Narrow&#39;, &#39;Bebas Neue&#39;, sans-serif" font-size="54" font-weight="bold" letter-spacing="1.5" text-anchor="middle" fill="url(#bottomTextGrad)" stroke="#8CC48E" stroke-width="1.2">STEP TOWARDS A GREEN FUTURE</text>
+  </g>
+
+  <style>
+    @keyframes turbine-spin {
+      to { transform: rotate(360deg); }
+    }
+
+    #turbine-rotor {
+      transform-box: view-box;
+      transform-origin: 617px 348px;
+      animation: turbine-spin 12s linear infinite;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      #turbine-rotor { animation: none; }
+    }
+  </style>
+</svg>
